@@ -1,9 +1,14 @@
 {
 	"compilerOptions": {
+		"baseUrl": ".",
 		"declaration": true,
 		"esModuleInterop": true,
 		"forceConsistentCasingInFileNames": true,
+		"jsx": "preserve",
 		"moduleResolution": "node",
+		"paths": {
+			"~/*": ["src/*"]
+		},
 		"removeComments": true,
 		"skipLibCheck": true,
 		"strict": true
